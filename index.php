@@ -7,6 +7,6 @@
         <title>Bad Words</title>
     </head>
     <body>
-        
+        <h1>Questo è l'index.php</h1>
     </body>
 </html>
