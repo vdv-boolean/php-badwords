@@ -7,9 +7,29 @@
         <title>Bad Words</title>
     </head>
     <body>
-        <h1>Questo è l'index.html</h1>
-        <form action="index.php">
-            <button>Vai al php</button>
+        <h1>Bad Words</h1>
+        <form action="index.php" method="get">
+
+            <div>
+                <textarea
+                    name="long-text"
+                    cols="30"
+                    rows="10"
+                >Immetti il testo qui</textarea>
+            </div>
+
+            <div>
+                <input
+                    type="text"
+                    name="bad-text"
+                    placeholder="Immetti il testo da censurare qui"
+                >
+            </div>
+
+            <button>
+                Vai al php
+            </button>
+
         </form> 
     </body>
 </html>
