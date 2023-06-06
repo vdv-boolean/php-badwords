@@ -22,13 +22,14 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Bad Words</h1>
-        <h2><?= $text_string; ?></h2>
-        <p><?= $long_text; ?></p>
-        <h2><?= $bad_string; ?></h2>
-        <span><?= $bad_text; ?></span>
-        <h2><?= $censored_string; ?></h2>
-        <p><?= $censored_text; ?></p>
-
+        <div class="container">
+            <h1>Bad Words</h1>
+            <h2><?= $text_string; ?></h2>
+            <p><?= $long_text; ?></p>
+            <h2><?= $bad_string; ?></h2>
+            <span><?= $bad_text; ?></span>
+            <h2><?= $censored_string; ?></h2>
+            <p><?= $censored_text; ?></p>
+        </div>
     </body>
 </html>
