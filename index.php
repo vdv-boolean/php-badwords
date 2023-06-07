@@ -10,6 +10,10 @@
 
     # Censored text function
     $censored_text = str_replace($bad_text, '***', $long_text) ;
+
+     # String lenght function
+     $long_lenght = strlen($long_text);
+     $censored_lenght = strlen($censored_text);
 ?>
 
 <!DOCTYPE html>
@@ -26,10 +30,12 @@
             <h1>Bad Words</h1>
             <h2><?= $text_string; ?></h2>
             <p><?= $long_text; ?></p>
+            <span>Il tuo testo contiene <?= $long_lenght ?> lettere</span>
             <h2><?= $bad_string; ?></h2>
             <span><?= $bad_text; ?></span>
             <h2><?= $censored_string; ?></h2>
             <p><?= $censored_text; ?></p>
+            <span>Il tuo testo contiene <?= $censored_lenght ?> lettere</span>
         </div>
     </body>
 </html>
